@@ -1,0 +1,13 @@
+#hex_color{
+    color: #3349DB;
+}
+/* 
+0-9
+A-F
+*/
+#rgb_color{
+    color: rgb(255, 99, 71);
+}
+#hsl_color{
+    color: hsl(hue, saturation, lightness);
+}
