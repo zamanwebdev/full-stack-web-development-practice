@@ -11,3 +11,45 @@ A-F
 #hsl_color{
     color: hsl(hue, saturation, lightness);
 }
+/* 
+hue: 0-360 degress
+saturation: 0-100%  
+lightness: 0-100%
+ */
+
+ .heading1{
+    color: #ff6347;
+ }
+ .example_content{
+    background-color: royalblue;
+    padding: 20px;
+    color: white;
+ }
+ .bg-banner{
+    background-image: url("../images/bg-banner.avif");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    padding: 20px;
+ }
+ .multi_img{
+    background-image: url("../images/bg-banner.avif"), url("../images/img2.jpg");
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    padding: 20px;
+ }
+ .linear_gradient{
+    background: linear-gradient(to right, #ff6347, #3349DB);
+    background: linear-gradient(to left, #ff6347, #3349DB);
+    background: linear-gradient(to top, #ff6347, #3349DB);
+    background: linear-gradient(to bottom, #ff6347, #3349DB);
+    padding: 50px;
+ }
+.radial_gradient{
+    margin-top: 10px;
+    height: 450px;
+    width: 450px;
+    background: radial-gradient(circle, #ff6347, #3349DB);
+}
