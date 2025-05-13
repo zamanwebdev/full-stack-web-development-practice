@@ -18,5 +18,17 @@
 
 body{
     font-family: "Open Sans", sans-serif;
-    background-color: var(--primary--color);
+    width: 100%;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    color: var(--primary-color);
+    padding: 15px;
+    background-color: var(--background-color);
+    position: sticky;
+    top: 0;
 }
