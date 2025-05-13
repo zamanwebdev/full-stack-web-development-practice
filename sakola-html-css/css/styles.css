@@ -31,4 +31,40 @@ header{
     background-color: var(--background-color);
     position: sticky;
     top: 0;
+    z-index: 10;
+}
+
+header > * {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 0 10px;
+}
+nav ul li a{
+    color: var(--primary-color);
+}
+nav ul li a:hover, .menu_btn a:hover{
+    color: var(--secondary-color);
+}
+.menu_btn a{
+    padding: 0 10px;
+}
+.menu_btn .signup{
+    margin-left: 10px;
+    border: 1px solid var(--primary-color);
+    padding: 5px 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.menu_btn .signup:hover{
+    background-color: var(--primary-color);
+    color: #fff;
 }
