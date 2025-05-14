@@ -68,3 +68,27 @@ nav ul li a:hover, .menu_btn a:hover{
     background-color: var(--primary-color);
     color: #fff;
 }
+/* Hero Section Styling */
+.hero_section{
+    background-color: var(--background-color);
+    padding: 15px;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 100px 15px;
+}
+.hero_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+.hero_image{
+    width: 50%;
+}
+img{
+    width: 100%;
+}
