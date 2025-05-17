@@ -210,4 +210,72 @@ p {
     align-items: center;
 }
 
+/* About Section Styling */
+.about_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 15px;
+}
+.about_image, .abount_info{
+    width: 50%;
+
+}
+.abount_info h2.heading{
+    width: 60%;
+}
+
+/* Why Us Box */
+.why_us{
+    margin-top: 40px;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.why_us_box{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 80%;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.why_us_box:hover{
+    transform: scale(1.05);
+}
+.icon_text{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 40px;
+}
+.icon{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EDFAFF;
+    border-radius: 50%;
+}
+.icon img{
+    width: 24px;
+    height: 24px;
+}
+h3{
+    font-size: 1rem;
+    color: #333;
+    line-height: 40px;
+}
+.arrow_icon{
+    margin-left: auto;
+}
+
+
 
