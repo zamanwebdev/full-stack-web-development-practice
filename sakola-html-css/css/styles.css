@@ -122,7 +122,7 @@ nav ul li a:hover,
     margin-bottom: 24px;
 }
 
-.hero_text h1.heading {
+.hero_text h1.heading, .school_section h2.heading{
     width: 60%;
 }
 
@@ -276,6 +276,18 @@ h3{
 .arrow_icon{
     margin-left: auto;
 }
+/* School Section */
+.school_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 15px;
+}
+.school_section .text_content p{
+    width: 65%;
+}
+
 
 
 
