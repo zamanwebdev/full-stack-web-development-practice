@@ -287,7 +287,55 @@ h3{
 .school_section .text_content p{
     width: 65%;
 }
+/* Studing Section */
+.class_content{
+    text-align: center;
+}
+.class_content h2.heading{
+    width: 42%;
+    margin: 0 auto;
+}
+.class_cards{
+    margin-top: 50px;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-content: center;
 
+}
+.class_card{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+}
+.class_card:hover{
+    transform: translateY(-5px);
+}
+.course_image{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+.course_title{
+    font-size: 1.2rem;
+    color: #040931;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.student_count{
+    color: #555;
+    font-size: 0.87rem;
+    margin-bottom: 10px;
+}
+.start_raing{
+    color: #fdc350;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
 
 
 
