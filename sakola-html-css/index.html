@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sakola | School Leanding Page using HTML and CSS</title>
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Media Queries -->
+     <link rel="stylesheet" href="css/media_queries.css">
 </head>
 
 <body>
@@ -13,7 +15,7 @@
     <header>
         <!-- Logo -->
         <div class="logo">
-            <a href="#logo">
+            <a href="index.html">
                 <img src="images/logo.png" alt="Logo Image">
             </a>
         </div>
@@ -31,14 +33,14 @@
         <!-- Sign In and Sign Up Button -->
         <div class="menu_btn">
             <a href="#" class="signin">Sign In</a>
-            <a href="#" class="signup">Sign Up</a>
+            <a href="#signup" class="signup">Sign Up</a>
         </div>
     </header>
 
     <!-- Main Section -->
-    <main>
+    <main class="hidden">
         <!-- Hero Section -->
-        <section class="hero_section">
+        <section class="hero_section" id="home">
             <div class="container hero_container">
                 <!-- Hero Content -->
                 <div class="hero_text">
@@ -89,7 +91,7 @@
             </div>
         </section>
         <!-- Abount Us Section -->
-        <section class="container">
+        <section class="container" id="about">
             <div class="about_section">
                 <!-- About Image -->
                 <div class="about_image">
@@ -148,7 +150,7 @@
 
         </section>
         <!-- School Section -->
-        <section class="container">
+        <section class="container" id="schools">
             <div class="school_section">
                 <!-- Left Side (Text Content) -->
                 <div class="text_content">
@@ -168,7 +170,7 @@
             </div>
         </section>
         <!-- Studing Section -->
-        <div class="container">
+        <div class="container" id="studing">
             <div class="classes_section">
                 <!-- Sub Heading & Heading -->
                 <div class="class_content">
@@ -206,7 +208,7 @@
             </div>
         </div>
         <!-- Newsletter Section -->
-        <div class="container">
+        <div class="container" id="signup">
             <div class="newsletter">
                 <div class="overlay">
                     <div class="content">
@@ -218,7 +220,7 @@
             </div>
         </div>
     </main>
-    <footer>
+    <footer class="hidden">
         <div class="footer">
             <!-- About Company -->
             <div class="footer_section">

@@ -1,0 +1,12 @@
+.hidden{
+    display: none;
+}
+/* Mobiles Devices (max-width:480px)*/
+@media (max-width:480px) {
+    header > *{
+        margin: 0;
+    }
+    .nav_item, .menu_btn{
+        display: none;
+    }
+}
