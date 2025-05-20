@@ -419,6 +419,21 @@ footer{
 
 .footer .social_media a:hover{
     background-color: var(--primary-color);
+    transform: translateY(-10px);
+}
+.footer ul{
+    padding: 0;
+}
+
+.footer ul li{
+    margin-bottom: 10px;
+}
+.footer ul li a{
+    color: var(--primary-text-color);
+}
+
+.footer ul li a:hover{
+    color: var(--secondary-color);
 }
 
 
