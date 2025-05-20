@@ -1,2 +1,5 @@
+64. Footer Section >> Practice Done.
 64. Footer Section >> Practice Started. 
 63. Newsletter Section >> Practice Done.
+7e36336
+git reset --soft 7e36336
