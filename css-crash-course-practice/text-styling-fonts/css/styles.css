@@ -1,3 +1,13 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+
+body{
+     font-family: "Montserrat", sans-serif;
+}
+
+
+
 .normal_text{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -20,4 +30,19 @@
 }
 .letter-spacing-example{
     font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.75;
+}
+.text_alignment_example{
+    text-align: right;
+    text-align: left;
+    text-align: center;
+    text-align: justify;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.futuristic_font{
+     font-family: "Doto", sans-serif;
+     color: blue;
 }
