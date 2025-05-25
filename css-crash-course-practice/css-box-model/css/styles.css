@@ -1,9 +1,24 @@
-.box{
+body {
+    border: 5px solid indigo;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+}
+
+.box {
     width: 600px;
     height: 300px;
     background-color: black;
     color: white;
     border: 5px solid tomato;
-    padding: 20px;
-    margin: 50px;
+    /* padding: 20px; */
+    /* padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    padding-left: 80px; */
+    padding: 50px 50px 100px 80px; /* Clockwise */
+    /* margin: 50px; */
+    margin: 100px 50px 150px 120px;
+
 }
