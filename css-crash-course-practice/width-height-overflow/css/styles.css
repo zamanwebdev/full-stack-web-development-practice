@@ -1,0 +1,53 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 2px solid tomato;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 24px;
+    line-height: 150px; /* Verticaly cener e ante */
+}
+.responsive_box{
+    width: 100%;
+    max-width: 500px;
+    min-width: 200px;
+    background-color: lightgreen;
+    padding: 20px;
+    border: 2px solid #333;
+    text-align: center;
+}
+.height_box{
+    width: 100%;
+    background-color: lightcoral;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    text-align: center;
+    max-height: 450px;
+    min-height: 150px;
+    margin-bottom: 20px;
+    display: none;
+}
+.overflow_box{
+    width: 300px;
+    height: 200px;
+    background-color: lightseagreen;
+    padding: 10px;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.overflow_box img{
+    width: 100%;
+    height: auto;
+}
