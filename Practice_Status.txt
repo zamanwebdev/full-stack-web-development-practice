@@ -3,3 +3,4 @@
 63. Newsletter Section >> Practice Done.
 7e36336
 git reset --soft 7e36336
+git commit --amend -m "38. Positioning Elements >> Practice Done."
