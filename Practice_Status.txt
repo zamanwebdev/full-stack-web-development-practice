@@ -1,3 +1,6 @@
+
+40. Flexbox Practical Project: Responsive Product Cards >> Practice Done.
+
 64. Footer Section >> Practice Done.
 64. Footer Section >> Practice Started. 
 63. Newsletter Section >> Practice Done.
