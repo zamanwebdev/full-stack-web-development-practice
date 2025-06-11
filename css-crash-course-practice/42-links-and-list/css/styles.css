@@ -1,0 +1,25 @@
+li{
+    list-style-type: none;
+    background-color: lightcyan;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+a:active{
+    color: blueviolet;
+}
+a:visited{
+    color: #5a2d8c;
+}
+ul.custom_bullets li{
+    list-style-type: square;
+}
