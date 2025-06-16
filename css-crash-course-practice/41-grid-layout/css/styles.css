@@ -65,12 +65,39 @@ h1,h2 {
     grid-template-rows: repeat(2, 150px);
 }
 .grid_container3 > div{
-     background: lightpink;
+    background: lightpink;
     color: white;
     font-size: 20px;
-    height: 100px;
+    /* height: 100px; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5px;
+    padding: 20px;
+}
+.grid_container3 .item1{
+    grid-column: span 2;
+}
+.grid_container3 .item7{
+    grid-column: span 2;
+}
+
+.grid_container3 .item8{
+    grid-column: span 3;
+    padding: 20px;
+}
+.grid_container4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    /* justify-items: center;
+    align-items: center; */
+    /* place-items: center; */
+    grid-auto-flow: row;
+    background-color: white;
+    height: 450px;
+}
+.grid_container4 > div{
+    padding: 20px;
+    border: 1px solid royalblue;
 }
