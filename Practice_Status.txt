@@ -1,7 +1,5 @@
-
-41. Mastering CSS Grid Layout >> Practice = Ongoing.
+41. Mastering CSS Grid Layout >> Practice Done.
 40. Flexbox Practical Project: Responsive Product Cards >> Practice Done.
-
 64. Footer Section >> Practice Done.
 64. Footer Section >> Practice Started. 
 63. Newsletter Section >> Practice Done.
