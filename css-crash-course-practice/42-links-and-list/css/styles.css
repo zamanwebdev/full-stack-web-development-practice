@@ -34,7 +34,14 @@ ul.no_markers{
     list-style: none; /* Remove Bullet Points */
 }
 
-.custom_icon{
+ul.custom_icon{
     list-style: none;
     padding-left: 0;
+}
+ul.custom_icon li{
+    padding-left: 20px;
+    background: url('https://cdn-icons-png.freepik.com/256/11433/11433324.png?semt=ais_incoming') no-repeat left center;
+    background-size: 15px 15px;
+    margin: 10px 0;
+    text-align: left;
 }
