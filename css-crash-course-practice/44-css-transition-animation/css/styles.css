@@ -1,0 +1,72 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: lightcyan;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: cyan;
+    transform: scale(.85);
+}
+/*
+    transition: property duration timing-function delay
+
+    1. property => background-color / width / height
+    2. duration => 1s / 0.5s / 500ms
+    3. timing-function => ease / ease-in / ease-out / linear / ease-in-out
+*/
+
+/* 2. Animations with @keyframes */
+
+.animated_box{
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+    border-radius: 8px;
+    animation: move_box 3s ease-in-out infinite;
+    /* animation: move_box 3s cubic-bezier(0.075, 0.82, 0.165, 1) infinite; */
+}
+/*
+    animation: name duration timing-function delay iteration-count direction fill-mode; 
+*/
+@keyframes move_box {
+    0%{
+        opacity: 0;
+        transform: translateX(0);
+    }
+    50%{
+        opacity: 0.5;
+        transform: translateX(200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(100px);
+    }
+}
+
+.combine_title{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.animated_box_transition{
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    animation: rotate_box 05s linear infinite;
+}
+.animated_box_transition:hover{
+    background-color: cyan;
+}
+@keyframes rotate_box {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,6 +1,6 @@
+
+44. CSS Transitions and Animations >> Practice = Done.
 43. CSS Borders Type and Styling >> Practice = Done.
-
-
 42. Working with Links and Lists >> Practice = Done.
 41. Mastering CSS Grid Layout >> Practice Done.
 40. Flexbox Practical Project: Responsive Product Cards >> Practice Done.
