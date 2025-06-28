@@ -1,0 +1,23 @@
+/* --variable-name = value */
+:root{
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+    --background-color: lightblue;
+    --btn-hover-color: #fff;
+    --primary-font: 20px;
+    --default-padding: 20px;
+}
+body{
+    background-color: var(--background-color);
+    padding: var(--default-padding);
+}
+.cta_button{
+    font-size: var(--primary-font);
+    padding: 20px;
+    border: none;
+}
+.cta_button:hover{
+   background-color: var(--primary-color);
+   color: var(--btn-hover-color);
+}

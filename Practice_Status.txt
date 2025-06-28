@@ -1,10 +1,8 @@
 
+
+48. CSS Variables (Custom Properties) >> Practice = Done.
 47. Working with Units in CSS >> Practice = Done.
-
-
 46. Responsive Design with Media Queries >> Practice = Done.
-
-
 45. Pseudo-Classes and Pseudo-Elements >> Practice = Done.
 44. CSS Transitions and Animations >> Practice = Done.
 43. CSS Borders Type and Styling >> Practice = Done.
