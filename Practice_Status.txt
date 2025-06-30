@@ -1,5 +1,10 @@
 
 
+73. Setup Development Environment and Run Code on Browser Console
+
+
+53. How to Use Google Fonts and CSS Variables >> Revision = Ongoing. 
+
 48. CSS Variables (Custom Properties) >> Practice = Done.
 47. Working with Units in CSS >> Practice = Done.
 46. Responsive Design with Media Queries >> Practice = Done.

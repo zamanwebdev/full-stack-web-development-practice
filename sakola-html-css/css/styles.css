@@ -17,6 +17,7 @@
     /*16px = 1 rem*/
     --heading_font-size: 2.5rem;
 }
+
 html{
     scroll-behavior: smooth;
 }
