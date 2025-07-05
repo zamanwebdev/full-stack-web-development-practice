@@ -16,8 +16,7 @@
     .hero_image, .btn, .outline_btn, .hero_text h1.heading, .school_section h2.heading, .hero_text p{
         width: 100%;
     }
-
     .btn_group{
-        flex-direction: column;
+        flex-direction: none;
     }
 }

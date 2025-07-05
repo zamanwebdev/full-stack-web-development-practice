@@ -3,7 +3,10 @@
 73. Setup Development Environment and Run Code on Browser Console
 
 
-53. How to Use Google Fonts and CSS Variables >> Revision = Ongoing. 
+
+66. How to Make Website Mobile Responsive (using Media Queries) part-1 >> Revision = Done.
+54. Create Header Section >> Revision = Done.
+53. How to Use Google Fonts and CSS Variables >> Revision = Done.
 
 48. CSS Variables (Custom Properties) >> Practice = Done.
 47. Working with Units in CSS >> Practice = Done.
