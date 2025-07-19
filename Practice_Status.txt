@@ -3,6 +3,7 @@
 73. Setup Development Environment and Run Code on Browser Console
 
 
+68. Make Responsive for the Tablet and Laptop Devices >> Practice = Done.
 
 67. How to Make Website Mobile Responsive (using Media Queries) part-2 >> Practice = Done.
 

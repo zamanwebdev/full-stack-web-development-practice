@@ -46,3 +46,58 @@
         padding: 15px;
     }
 }
+
+/* Tablet Devices (min-width: 481px and max-width: 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .nav_item{
+        display: none;
+    }
+    header > * {
+        margin: 0;
+    }
+    .hero_container{
+        flex-direction: column;
+        height: auto;
+    }
+    .about_section{
+        flex-direction: column;
+        align-items: start;
+    }
+    .hero_image, .hero_text h1.heading, .school_section h2.heading, .hero_text p, .abount_info, .abount_info h2.heading, .school_section .text_content p, .class_content h2.heading{
+        width: 100%;
+    }
+    .hero_image img {
+        width: 65%;
+    }
+
+    .school_section{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .class_cards, .footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .classes_section{
+        padding: 24px;
+    }
+}
+/* Laptop or Desktop Devices (min-width: 769px and max-width: 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .hero_image{
+        flex-shrink: 0;
+    }
+    .hero_text h1.heading, .school_section h2.heading, .hero_text p, .abount_info, .abount_info h2.heading, .school_section .text_content p, .class_content h2.heading{
+        width: 100%;
+    }
+    
+    .school_section{
+        flex-direction: row;
+        align-items: center;
+    }
+    .school_section, .text_content{
+        width: 60%;
+    }
+    .class_cards, .footer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
