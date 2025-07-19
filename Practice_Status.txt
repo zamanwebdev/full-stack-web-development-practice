@@ -1,6 +1,10 @@
 
 
+74. Embedding JavaScript in HTML, Run Code using Code Runner Extentions
+
 73. Setup Development Environment and Run Code on Browser Console
+
+72. Introduction to JavaScript
 
 69. How to Deploy Your Website on Netlify >> Practice = Done.
 
