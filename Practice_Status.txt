@@ -1,8 +1,8 @@
+75. Statements and Comments in JavaScript
 
+74. Embedding JavaScript in HTML, Run Code using Code Runner Extentions >> Practice = Done.
 
-74. Embedding JavaScript in HTML, Run Code using Code Runner Extentions
-
-73. Setup Development Environment and Run Code on Browser Console
+73. Setup Development Environsment and Run Code on Browser Console
 
 72. Introduction to JavaScript
 
