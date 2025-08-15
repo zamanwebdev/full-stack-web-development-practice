@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Name Display</title>
+</head>
+<body>
+
+  <h2>Type Your Name:</h2>
+  <input type="text" id="nameInput" placeholder="Your name">
+
+  <h3 id="output"></h3>
+
+  <script>
+    // Add event listener to input field
+    document.getElementById("nameInput").addEventListener("input", function() {
+      var name = this.value;
+      document.getElementById("output").textContent = name ? "Hello, " + name + "!" : "";
+    });
+  </script>
+
+</body>
+</html>
