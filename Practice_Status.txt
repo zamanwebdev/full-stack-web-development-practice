@@ -1,5 +1,9 @@
 
-76. Variables and Constants
+
+77. Data Types in JS (strings, numbers, booleans, undefined, null) part 1
+
+
+76. Variables and Constants >> Practice = Done.
 
 75. Statements and Comments in JavaScript >> Practice = Done.
 
