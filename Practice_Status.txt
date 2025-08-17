@@ -1,6 +1,7 @@
 
+79. Basic Operators: Arithmetic Operators
 
-77. Data Types in JS (strings, numbers, booleans, undefined, null) part 1
+78. Data Types in JS (strings, numbers, booleans, undefined, null) part 2 >> Practice = Done.
 
 
 76. Variables and Constants >> Practice = Done.

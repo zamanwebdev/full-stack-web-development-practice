@@ -23,11 +23,10 @@ console.log(name)
 let age = 25;
 console.log(age)
 
-
-
 age = 30
 
 console.log(age)
+
 // 3. Using Const (Used for fixed value ) 
 const Country = "Bangladesh"
 const Country2 = "USA"
